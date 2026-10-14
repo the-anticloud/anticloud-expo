@@ -1,0 +1,38 @@
+{
+  "project": "EXPO",
+  "slug_source": "GitHub search API exact-name top match (candidates quoted)",
+  "picked_slug": "expo/expo",
+  "search_url": "https://api.github.com/search/repositories?q=expo&per_page=5",
+  "search_status": 200,
+  "candidates": [
+    {
+      "full_name": "expo/expo",
+      "stars": 52586,
+      "license": "MIT"
+    },
+    {
+      "full_name": "prometheus/node_exporter",
+      "stars": 13827,
+      "license": "Apache-2.0"
+    },
+    {
+      "full_name": "wechat-article/wechat-article-exporter",
+      "stars": 13024,
+      "license": "MIT"
+    },
+    {
+      "full_name": "JetBrains/Exposed",
+      "stars": 9295,
+      "license": "Apache-2.0"
+    },
+    {
+      "full_name": "expo/examples",
+      "stars": 3735,
+      "license": "MIT"
+    }
+  ],
+  "commit_url": "https://api.github.com/repos/expo/expo/commits/main",
+  "commit_status": 200,
+  "default_branch": null,
+  "commit_response_excerpt": "{\"sha\": \"98274e997e535f8a276dff4dc41d1fea6cb73fef\", \"commit\": {\"message\": \"[docs] Add web to react-native-view-shot supported platforms (#51182)\\n\\n# Why\\n\\nTh\", \"committer_date\": \"2026-10-06T15:53:10Z\"}}"
+}
