@@ -1,0 +1,1608 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:5c565ccf-981a-5add-adf9-b3814b59c8ed",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T06:36:18Z",
+  "component": {
+   "type": "application",
+   "name": "EXPO",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/EXPO@83b357604d34",
+   "purl": "pkg:generic/anticloud/EXPO@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "<contaminated-url-removed>"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@expo/html-elements",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@expo/html-elements@workspace:*",
+   "bom-ref": "npm/@expo/html-elements@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@expo/styleguide-base",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/@expo/styleguide-base@^1.0.1",
+   "bom-ref": "npm/@expo/styleguide-base@^1.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@expo/ui",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@expo/ui@workspace:*",
+   "bom-ref": "npm/@expo/ui@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@expo/vector-icons",
+   "version": "^15.0.2",
+   "purl": "pkg:npm/@expo/vector-icons@^15.0.2",
+   "bom-ref": "npm/@expo/vector-icons@^15.0.2"
+  },
+  {
+   "type": "library",
+   "name": "@react-navigation/bottom-tabs",
+   "version": "^7.15.5",
+   "purl": "pkg:npm/@react-navigation/bottom-tabs@^7.15.5",
+   "bom-ref": "npm/@react-navigation/bottom-tabs@^7.15.5"
+  },
+  {
+   "type": "library",
+   "name": "@react-navigation/native",
+   "version": "^7.1.33",
+   "purl": "pkg:npm/@react-navigation/native@^7.1.33",
+   "bom-ref": "npm/@react-navigation/native@^7.1.33"
+  },
+  {
+   "type": "library",
+   "name": "@react-navigation/native-stack",
+   "version": "^7.14.5",
+   "purl": "pkg:npm/@react-navigation/native-stack@^7.14.5",
+   "bom-ref": "npm/@react-navigation/native-stack@^7.14.5"
+  },
+  {
+   "type": "library",
+   "name": "expo",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo@workspace:*",
+   "bom-ref": "npm/expo@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-app-metrics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-app-metrics@workspace:*",
+   "bom-ref": "npm/expo-app-metrics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-build-properties",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-build-properties@workspace:*",
+   "bom-ref": "npm/expo-build-properties@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-clipboard",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-clipboard@workspace:*",
+   "bom-ref": "npm/expo-clipboard@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-constants",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-constants@workspace:*",
+   "bom-ref": "npm/expo-constants@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-dev-client",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-dev-client@workspace:*",
+   "bom-ref": "npm/expo-dev-client@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-eas-client",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-eas-client@workspace:*",
+   "bom-ref": "npm/expo-eas-client@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-font",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-font@workspace:*",
+   "bom-ref": "npm/expo-font@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-haptics",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-haptics@workspace:*",
+   "bom-ref": "npm/expo-haptics@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-image",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-image@workspace:*",
+   "bom-ref": "npm/expo-image@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-linking",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-linking@workspace:*",
+   "bom-ref": "npm/expo-linking@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-observe",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-observe@workspace:*",
+   "bom-ref": "npm/expo-observe@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-router",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-router@workspace:*",
+   "bom-ref": "npm/expo-router@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-splash-screen",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-splash-screen@workspace:*",
+   "bom-ref": "npm/expo-splash-screen@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-status-bar",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-status-bar@workspace:*",
+   "bom-ref": "npm/expo-status-bar@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-symbols",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-symbols@workspace:*",
+   "bom-ref": "npm/expo-symbols@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-system-ui",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-system-ui@workspace:*",
+   "bom-ref": "npm/expo-system-ui@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-updates",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-updates@workspace:*",
+   "bom-ref": "npm/expo-updates@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-web-browser",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-web-browser@workspace:*",
+   "bom-ref": "npm/expo-web-browser@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "19.3.0",
+   "purl": "pkg:npm/react@19.3.0",
+   "bom-ref": "npm/react@19.3.0"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "19.3.0",
+   "purl": "pkg:npm/react-dom@19.3.0",
+   "bom-ref": "npm/react-dom@19.3.0"
+  },
+  {
+   "type": "library",
+   "name": "react-native",
+   "version": "0.88.0-rc.3",
+   "purl": "pkg:npm/react-native@0.88.0-rc.3",
+   "bom-ref": "npm/react-native@0.88.0-rc.3"
+  },
+  {
+   "type": "library",
+   "name": "react-native-safe-area-context",
+   "version": "~5.9.1",
+   "purl": "pkg:npm/react-native-safe-area-context@~5.9.1",
+   "bom-ref": "npm/react-native-safe-area-context@~5.9.1"
+  },
+  {
+   "type": "library",
+   "name": "react-native-screens",
+   "version": "4.28.0",
+   "purl": "pkg:npm/react-native-screens@4.28.0",
+   "bom-ref": "npm/react-native-screens@4.28.0"
+  },
+  {
+   "type": "library",
+   "name": "@expo/config",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@expo/config@workspace:*",
+   "bom-ref": "npm/@expo/config@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@types/react",
+   "version": "~19.3.0",
+   "purl": "pkg:npm/@types/react@~19.3.0",
+   "bom-ref": "npm/@types/react@~19.3.0"
+  },
+  {
+   "type": "library",
+   "name": "tsx",
+   "version": "^4.20.6",
+   "purl": "pkg:npm/tsx@^4.20.6",
+   "bom-ref": "npm/tsx@^4.20.6"
+  },
+  {
+   "type": "library",
+   "name": "color",
+   "version": "^5.0.3",
+   "purl": "pkg:npm/color@^5.0.3",
+   "bom-ref": "npm/color@^5.0.3"
+  },
+  {
+   "type": "library",
+   "name": "expo-device",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-device@workspace:*",
+   "bom-ref": "npm/expo-device@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-localization",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-localization@workspace:*",
+   "bom-ref": "npm/expo-localization@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-notifications",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-notifications@workspace:*",
+   "bom-ref": "npm/expo-notifications@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-sqlite",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-sqlite@workspace:*",
+   "bom-ref": "npm/expo-sqlite@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-task-manager",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-task-manager@workspace:*",
+   "bom-ref": "npm/expo-task-manager@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "native-component-list",
+   "version": "workspace:*",
+   "purl": "pkg:npm/native-component-list@workspace:*",
+   "bom-ref": "npm/native-component-list@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "react-native-gesture-handler",
+   "version": "~3.2.1",
+   "purl": "pkg:npm/react-native-gesture-handler@~3.2.1",
+   "bom-ref": "npm/react-native-gesture-handler@~3.2.1"
+  },
+  {
+   "type": "library",
+   "name": "react-native-reanimated",
+   "version": "4.7.0",
+   "purl": "pkg:npm/react-native-reanimated@4.7.0",
+   "bom-ref": "npm/react-native-reanimated@4.7.0"
+  },
+  {
+   "type": "library",
+   "name": "react-native-worklets",
+   "version": "0.13.0",
+   "purl": "pkg:npm/react-native-worklets@0.13.0",
+   "bom-ref": "npm/react-native-worklets@0.13.0"
+  },
+  {
+   "type": "library",
+   "name": "test-suite",
+   "version": "workspace:*",
+   "purl": "pkg:npm/test-suite@workspace:*",
+   "bom-ref": "npm/test-suite@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@types/jest",
+   "version": "^30.0.0",
+   "purl": "pkg:npm/@types/jest@^30.0.0",
+   "bom-ref": "npm/@types/jest@^30.0.0"
+  },
+  {
+   "type": "library",
+   "name": "expo-background-task",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-background-task@workspace:*",
+   "bom-ref": "npm/expo-background-task@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-image-manipulator",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-image-manipulator@workspace:*",
+   "bom-ref": "npm/expo-image-manipulator@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-media-library",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-media-library@workspace:*",
+   "bom-ref": "npm/expo-media-library@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@babel/core",
+   "version": "^7.12.9",
+   "purl": "pkg:npm/@babel/core@^7.12.9",
+   "bom-ref": "npm/@babel/core@^7.12.9"
+  },
+  {
+   "type": "library",
+   "name": "@expo-google-fonts/inter",
+   "version": "^0.2.3",
+   "purl": "pkg:npm/@expo-google-fonts/inter@^0.2.3",
+   "bom-ref": "npm/@expo-google-fonts/inter@^0.2.3"
+  },
+  {
+   "type": "library",
+   "name": "@expo/app-integrity",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@expo/app-integrity@workspace:*",
+   "bom-ref": "npm/@expo/app-integrity@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@expo/material-symbols",
+   "version": "~0.1.1",
+   "purl": "pkg:npm/@expo/material-symbols@~0.1.1",
+   "bom-ref": "npm/@expo/material-symbols@~0.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@expo/react-native-action-sheet",
+   "version": "^4.1.1",
+   "purl": "pkg:npm/@expo/react-native-action-sheet@^4.1.1",
+   "bom-ref": "npm/@expo/react-native-action-sheet@^4.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@lottiefiles/dotlottie-react",
+   "version": "^0.13.5",
+   "purl": "pkg:npm/@lottiefiles/dotlottie-react@^0.13.5",
+   "bom-ref": "npm/@lottiefiles/dotlottie-react@^0.13.5"
+  },
+  {
+   "type": "library",
+   "name": "@lottiefiles/react-lottie-player",
+   "version": "^3.5.4",
+   "purl": "pkg:npm/@lottiefiles/react-lottie-player@^3.5.4",
+   "bom-ref": "npm/@lottiefiles/react-lottie-player@^3.5.4"
+  },
+  {
+   "type": "library",
+   "name": "@react-native-async-storage/async-storage",
+   "version": "2.2.0",
+   "purl": "pkg:npm/@react-native-async-storage/async-storage@2.2.0",
+   "bom-ref": "npm/@react-native-async-storage/async-storage@2.2.0"
+  },
+  {
+   "type": "library",
+   "name": "@react-native-community/datetimepicker",
+   "version": "9.2.1",
+   "purl": "pkg:npm/@react-native-community/datetimepicker@9.2.1",
+   "bom-ref": "npm/@react-native-community/datetimepicker@9.2.1"
+  },
+  {
+   "type": "library",
+   "name": "@react-native-community/netinfo",
+   "version": "12.0.1",
+   "purl": "pkg:npm/@react-native-community/netinfo@12.0.1",
+   "bom-ref": "npm/@react-native-community/netinfo@12.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@react-native-community/slider",
+   "version": "5.2.1",
+   "purl": "pkg:npm/@react-native-community/slider@5.2.1",
+   "bom-ref": "npm/@react-native-community/slider@5.2.1"
+  },
+  {
+   "type": "library",
+   "name": "@react-native-masked-view/masked-view",
+   "version": "0.3.2",
+   "purl": "pkg:npm/@react-native-masked-view/masked-view@0.3.2",
+   "bom-ref": "npm/@react-native-masked-view/masked-view@0.3.2"
+  },
+  {
+   "type": "library",
+   "name": "@react-native-picker/picker",
+   "version": "2.11.4",
+   "purl": "pkg:npm/@react-native-picker/picker@2.11.4",
+   "bom-ref": "npm/@react-native-picker/picker@2.11.4"
+  },
+  {
+   "type": "library",
+   "name": "@react-native-segmented-control/segmented-control",
+   "version": "2.5.7",
+   "purl": "pkg:npm/@react-native-segmented-control/segmented-control@2.5.7",
+   "bom-ref": "npm/@react-native-segmented-control/segmented-control@2.5.7"
+  },
+  {
+   "type": "library",
+   "name": "@react-native-vector-icons/ionicons",
+   "version": "^13.1.2",
+   "purl": "pkg:npm/@react-native-vector-icons/ionicons@^13.1.2",
+   "bom-ref": "npm/@react-native-vector-icons/ionicons@^13.1.2"
+  },
+  {
+   "type": "library",
+   "name": "@react-native-vector-icons/material-design-icons",
+   "version": "^13.1.2",
+   "purl": "pkg:npm/@react-native-vector-icons/material-design-icons@^13.1.2",
+   "bom-ref": "npm/@react-native-vector-icons/material-design-icons@^13.1.2"
+  },
+  {
+   "type": "library",
+   "name": "@shopify/flash-list",
+   "version": "2.3.2",
+   "purl": "pkg:npm/@shopify/flash-list@2.3.2",
+   "bom-ref": "npm/@shopify/flash-list@2.3.2"
+  },
+  {
+   "type": "library",
+   "name": "@shopify/react-native-skia",
+   "version": "2.13.1",
+   "purl": "pkg:npm/@shopify/react-native-skia@2.13.1",
+   "bom-ref": "npm/@shopify/react-native-skia@2.13.1"
+  },
+  {
+   "type": "library",
+   "name": "canvaskit-wasm",
+   "version": "^0.40.0",
+   "purl": "pkg:npm/canvaskit-wasm@^0.40.0",
+   "bom-ref": "npm/canvaskit-wasm@^0.40.0"
+  },
+  {
+   "type": "library",
+   "name": "date-fns",
+   "version": "^4.4.0",
+   "purl": "pkg:npm/date-fns@^4.4.0",
+   "bom-ref": "npm/date-fns@^4.4.0"
+  },
+  {
+   "type": "library",
+   "name": "deep-object-diff",
+   "version": "^1.1.9",
+   "purl": "pkg:npm/deep-object-diff@^1.1.9",
+   "bom-ref": "npm/deep-object-diff@^1.1.9"
+  },
+  {
+   "type": "library",
+   "name": "expo-2d-context",
+   "version": "^0.0.4",
+   "purl": "pkg:npm/expo-2d-context@^0.0.4",
+   "bom-ref": "npm/expo-2d-context@^0.0.4"
+  },
+  {
+   "type": "library",
+   "name": "expo-age-range",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-age-range@workspace:*",
+   "bom-ref": "npm/expo-age-range@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-ai",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-ai@workspace:*",
+   "bom-ref": "npm/expo-ai@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-app-intents",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-app-intents@workspace:*",
+   "bom-ref": "npm/expo-app-intents@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-apple-authentication",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-apple-authentication@workspace:*",
+   "bom-ref": "npm/expo-apple-authentication@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-application",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-application@workspace:*",
+   "bom-ref": "npm/expo-application@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-asset",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-asset@workspace:*",
+   "bom-ref": "npm/expo-asset@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-audio",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-audio@workspace:*",
+   "bom-ref": "npm/expo-audio@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-auth-session",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-auth-session@workspace:*",
+   "bom-ref": "npm/expo-auth-session@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-background-fetch",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-background-fetch@workspace:*",
+   "bom-ref": "npm/expo-background-fetch@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-battery",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-battery@workspace:*",
+   "bom-ref": "npm/expo-battery@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-blob",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-blob@workspace:*",
+   "bom-ref": "npm/expo-blob@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-blur",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-blur@workspace:*",
+   "bom-ref": "npm/expo-blur@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-brightness",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-brightness@workspace:*",
+   "bom-ref": "npm/expo-brightness@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-calendar",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-calendar@workspace:*",
+   "bom-ref": "npm/expo-calendar@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-camera",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-camera@workspace:*",
+   "bom-ref": "npm/expo-camera@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-cellular",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-cellular@workspace:*",
+   "bom-ref": "npm/expo-cellular@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-checkbox",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-checkbox@workspace:*",
+   "bom-ref": "npm/expo-checkbox@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-contacts",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-contacts@workspace:*",
+   "bom-ref": "npm/expo-contacts@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-crypto",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-crypto@workspace:*",
+   "bom-ref": "npm/expo-crypto@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-document-picker",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-document-picker@workspace:*",
+   "bom-ref": "npm/expo-document-picker@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-file-system",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-file-system@workspace:*",
+   "bom-ref": "npm/expo-file-system@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-gl",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-gl@workspace:*",
+   "bom-ref": "npm/expo-gl@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-glass-effect",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-glass-effect@workspace:*",
+   "bom-ref": "npm/expo-glass-effect@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-hinge",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-hinge@workspace:*",
+   "bom-ref": "npm/expo-hinge@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-image-loader",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-image-loader@workspace:*",
+   "bom-ref": "npm/expo-image-loader@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-image-picker",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-image-picker@workspace:*",
+   "bom-ref": "npm/expo-image-picker@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-intent-launcher",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-intent-launcher@workspace:*",
+   "bom-ref": "npm/expo-intent-launcher@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-keep-awake",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-keep-awake@workspace:*",
+   "bom-ref": "npm/expo-keep-awake@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-linear-gradient",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-linear-gradient@workspace:*",
+   "bom-ref": "npm/expo-linear-gradient@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-live-photo",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-live-photo@workspace:*",
+   "bom-ref": "npm/expo-live-photo@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-local-authentication",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-local-authentication@workspace:*",
+   "bom-ref": "npm/expo-local-authentication@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-location",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-location@workspace:*",
+   "bom-ref": "npm/expo-location@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-mail-composer",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-mail-composer@workspace:*",
+   "bom-ref": "npm/expo-mail-composer@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-maps",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-maps@workspace:*",
+   "bom-ref": "npm/expo-maps@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-mesh-gradient",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-mesh-gradient@workspace:*",
+   "bom-ref": "npm/expo-mesh-gradient@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-modules-test-core",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-modules-test-core@workspace:*",
+   "bom-ref": "npm/expo-modules-test-core@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-navigation-bar",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-navigation-bar@workspace:*",
+   "bom-ref": "npm/expo-navigation-bar@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-network",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-network@workspace:*",
+   "bom-ref": "npm/expo-network@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-print",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-print@workspace:*",
+   "bom-ref": "npm/expo-print@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-screen-capture",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-screen-capture@workspace:*",
+   "bom-ref": "npm/expo-screen-capture@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-screen-orientation",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-screen-orientation@workspace:*",
+   "bom-ref": "npm/expo-screen-orientation@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-secure-store",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-secure-store@workspace:*",
+   "bom-ref": "npm/expo-secure-store@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-sensors",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-sensors@workspace:*",
+   "bom-ref": "npm/expo-sensors@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-sharing",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-sharing@workspace:*",
+   "bom-ref": "npm/expo-sharing@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-sms",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-sms@workspace:*",
+   "bom-ref": "npm/expo-sms@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-speech",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-speech@workspace:*",
+   "bom-ref": "npm/expo-speech@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-standard-web-crypto",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-standard-web-crypto@workspace:*",
+   "bom-ref": "npm/expo-standard-web-crypto@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-store-review",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-store-review@workspace:*",
+   "bom-ref": "npm/expo-store-review@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-three",
+   "version": "7.0.1",
+   "purl": "pkg:npm/expo-three@7.0.1",
+   "bom-ref": "npm/expo-three@7.0.1"
+  },
+  {
+   "type": "library",
+   "name": "expo-tracking-transparency",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-tracking-transparency@workspace:*",
+   "bom-ref": "npm/expo-tracking-transparency@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-video",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-video@workspace:*",
+   "bom-ref": "npm/expo-video@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-video-thumbnails",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-video-thumbnails@workspace:*",
+   "bom-ref": "npm/expo-video-thumbnails@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "fbemitter",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/fbemitter@^2.1.1",
+   "bom-ref": "npm/fbemitter@^2.1.1"
+  },
+  {
+   "type": "library",
+   "name": "fuse.js",
+   "version": "^6.4.6",
+   "purl": "pkg:npm/fuse.js@^6.4.6",
+   "bom-ref": "npm/fuse.js@^6.4.6"
+  },
+  {
+   "type": "library",
+   "name": "gl-mat4",
+   "version": "^1.1.4",
+   "purl": "pkg:npm/gl-mat4@^1.1.4",
+   "bom-ref": "npm/gl-mat4@^1.1.4"
+  },
+  {
+   "type": "library",
+   "name": "hsv2rgb",
+   "version": "^1.1.0",
+   "purl": "pkg:npm/hsv2rgb@^1.1.0",
+   "bom-ref": "npm/hsv2rgb@^1.1.0"
+  },
+  {
+   "type": "library",
+   "name": "i18n-js",
+   "version": "^3.1.0",
+   "purl": "pkg:npm/i18n-js@^3.1.0",
+   "bom-ref": "npm/i18n-js@^3.1.0"
+  },
+  {
+   "type": "library",
+   "name": "lottie-react-native",
+   "version": "^7.5.0",
+   "purl": "pkg:npm/lottie-react-native@^7.5.0",
+   "bom-ref": "npm/lottie-react-native@^7.5.0"
+  },
+  {
+   "type": "library",
+   "name": "moment",
+   "version": "^2.29.4",
+   "purl": "pkg:npm/moment@^2.29.4",
+   "bom-ref": "npm/moment@^2.29.4"
+  },
+  {
+   "type": "library",
+   "name": "path",
+   "version": "^0.12.7",
+   "purl": "pkg:npm/path@^0.12.7",
+   "bom-ref": "npm/path@^0.12.7"
+  },
+  {
+   "type": "library",
+   "name": "pixi.js",
+   "version": "^4.6.1",
+   "purl": "pkg:npm/pixi.js@^4.6.1",
+   "bom-ref": "npm/pixi.js@^4.6.1"
+  },
+  {
+   "type": "library",
+   "name": "react-native-dropdown-picker",
+   "version": "^5.3.0",
+   "purl": "pkg:npm/react-native-dropdown-picker@^5.3.0",
+   "bom-ref": "npm/react-native-dropdown-picker@^5.3.0"
+  },
+  {
+   "type": "library",
+   "name": "react-native-keyboard-controller",
+   "version": "^1.22.4",
+   "purl": "pkg:npm/react-native-keyboard-controller@^1.22.4",
+   "bom-ref": "npm/react-native-keyboard-controller@^1.22.4"
+  },
+  {
+   "type": "library",
+   "name": "react-native-maps",
+   "version": "1.29.0",
+   "purl": "pkg:npm/react-native-maps@1.29.0",
+   "bom-ref": "npm/react-native-maps@1.29.0"
+  },
+  {
+   "type": "library",
+   "name": "react-native-pager-view",
+   "version": "9.0.4",
+   "purl": "pkg:npm/react-native-pager-view@9.0.4",
+   "bom-ref": "npm/react-native-pager-view@9.0.4"
+  },
+  {
+   "type": "library",
+   "name": "react-native-svg",
+   "version": "15.15.5",
+   "purl": "pkg:npm/react-native-svg@15.15.5",
+   "bom-ref": "npm/react-native-svg@15.15.5"
+  },
+  {
+   "type": "library",
+   "name": "react-native-view-shot",
+   "version": "5.1.1",
+   "purl": "pkg:npm/react-native-view-shot@5.1.1",
+   "bom-ref": "npm/react-native-view-shot@5.1.1"
+  },
+  {
+   "type": "library",
+   "name": "react-native-web",
+   "version": "~0.21.3",
+   "purl": "pkg:npm/react-native-web@~0.21.3",
+   "bom-ref": "npm/react-native-web@~0.21.3"
+  },
+  {
+   "type": "library",
+   "name": "react-native-webview",
+   "version": "14.0.1",
+   "purl": "pkg:npm/react-native-webview@14.0.1",
+   "bom-ref": "npm/react-native-webview@14.0.1"
+  },
+  {
+   "type": "library",
+   "name": "regl",
+   "version": "^1.3.0",
+   "purl": "pkg:npm/regl@^1.3.0",
+   "bom-ref": "npm/regl@^1.3.0"
+  },
+  {
+   "type": "library",
+   "name": "three",
+   "version": "^0.137.4",
+   "purl": "pkg:npm/three@^0.137.4",
+   "bom-ref": "npm/three@^0.137.4"
+  },
+  {
+   "type": "library",
+   "name": "url",
+   "version": "^0.11.0",
+   "purl": "pkg:npm/url@^0.11.0",
+   "bom-ref": "npm/url@^0.11.0"
+  },
+  {
+   "type": "library",
+   "name": "victory-native",
+   "version": "^37.0.2",
+   "purl": "pkg:npm/victory-native@^37.0.2",
+   "bom-ref": "npm/victory-native@^37.0.2"
+  },
+  {
+   "type": "library",
+   "name": "@expo/cli",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@expo/cli@workspace:*",
+   "bom-ref": "npm/@expo/cli@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@types/fbemitter",
+   "version": "^2.0.32",
+   "purl": "pkg:npm/@types/fbemitter@^2.0.32",
+   "bom-ref": "npm/@types/fbemitter@^2.0.32"
+  },
+  {
+   "type": "library",
+   "name": "@types/i18n-js",
+   "version": "^3.0.1",
+   "purl": "pkg:npm/@types/i18n-js@^3.0.1",
+   "bom-ref": "npm/@types/i18n-js@^3.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/pixi.js",
+   "version": "^4.8.6",
+   "purl": "pkg:npm/@types/pixi.js@^4.8.6",
+   "bom-ref": "npm/@types/pixi.js@^4.8.6"
+  },
+  {
+   "type": "library",
+   "name": "@types/three",
+   "version": "^0.137.0",
+   "purl": "pkg:npm/@types/three@^0.137.0",
+   "bom-ref": "npm/@types/three@^0.137.0"
+  },
+  {
+   "type": "library",
+   "name": "babel-jest",
+   "version": "^30.0.0",
+   "purl": "pkg:npm/babel-jest@^30.0.0",
+   "bom-ref": "npm/babel-jest@^30.0.0"
+  },
+  {
+   "type": "library",
+   "name": "expo-module-scripts",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-module-scripts@workspace:*",
+   "bom-ref": "npm/expo-module-scripts@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "jest",
+   "version": "^30.0.0",
+   "purl": "pkg:npm/jest@^30.0.0",
+   "bom-ref": "npm/jest@^30.0.0"
+  },
+  {
+   "type": "library",
+   "name": "react-test-renderer",
+   "version": "19.3.0",
+   "purl": "pkg:npm/react-test-renderer@19.3.0",
+   "bom-ref": "npm/react-test-renderer@19.3.0"
+  },
+  {
+   "type": "library",
+   "name": "expo-brownfield",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-brownfield@workspace:*",
+   "bom-ref": "npm/expo-brownfield@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@stripe/stripe-react-native",
+   "version": "0.76.0",
+   "purl": "pkg:npm/@stripe/stripe-react-native@0.76.0",
+   "bom-ref": "npm/@stripe/stripe-react-native@0.76.0"
+  },
+  {
+   "type": "library",
+   "name": "expo-dev-menu",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-dev-menu@workspace:*",
+   "bom-ref": "npm/expo-dev-menu@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "escape-string-regexp",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/escape-string-regexp@^4.0.0",
+   "bom-ref": "npm/escape-string-regexp@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "invariant",
+   "version": "2.2.4",
+   "purl": "pkg:npm/invariant@2.2.4",
+   "bom-ref": "npm/invariant@2.2.4"
+  },
+  {
+   "type": "library",
+   "name": "@babel/cli",
+   "version": "^7.29.7",
+   "purl": "pkg:npm/@babel/cli@^7.29.7",
+   "bom-ref": "npm/@babel/cli@^7.29.7"
+  },
+  {
+   "type": "library",
+   "name": "@babel/runtime",
+   "version": "^7.29.7",
+   "purl": "pkg:npm/@babel/runtime@^7.29.7",
+   "bom-ref": "npm/@babel/runtime@^7.29.7"
+  },
+  {
+   "type": "library",
+   "name": "@callstack/react-native-visionos",
+   "version": "0.73.8",
+   "purl": "pkg:npm/@callstack/react-native-visionos@0.73.8",
+   "bom-ref": "npm/@callstack/react-native-visionos@0.73.8"
+  },
+  {
+   "type": "library",
+   "name": "@react-native/babel-preset",
+   "version": "0.73.21",
+   "purl": "pkg:npm/@react-native/babel-preset@0.73.21",
+   "bom-ref": "npm/@react-native/babel-preset@0.73.21"
+  },
+  {
+   "type": "library",
+   "name": "@react-native/eslint-config",
+   "version": "0.73.2",
+   "purl": "pkg:npm/@react-native/eslint-config@0.73.2",
+   "bom-ref": "npm/@react-native/eslint-config@0.73.2"
+  },
+  {
+   "type": "library",
+   "name": "@react-native/metro-config",
+   "version": "0.73.5",
+   "purl": "pkg:npm/@react-native/metro-config@0.73.5",
+   "bom-ref": "npm/@react-native/metro-config@0.73.5"
+  },
+  {
+   "type": "library",
+   "name": "@react-native/typescript-config",
+   "version": "0.73.1",
+   "purl": "pkg:npm/@react-native/typescript-config@0.73.1",
+   "bom-ref": "npm/@react-native/typescript-config@0.73.1"
+  },
+  {
+   "type": "library",
+   "name": "@rnx-kit/metro-config",
+   "version": "1.3.15",
+   "purl": "pkg:npm/@rnx-kit/metro-config@1.3.15",
+   "bom-ref": "npm/@rnx-kit/metro-config@1.3.15"
+  },
+  {
+   "type": "library",
+   "name": "@semantic-release/commit-analyzer",
+   "version": "13.0.1",
+   "purl": "pkg:npm/@semantic-release/commit-analyzer@13.0.1",
+   "bom-ref": "npm/@semantic-release/commit-analyzer@13.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@semantic-release/git",
+   "version": "10.0.1",
+   "purl": "pkg:npm/@semantic-release/git@10.0.1",
+   "bom-ref": "npm/@semantic-release/git@10.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@semantic-release/github",
+   "version": "12.0.6",
+   "purl": "pkg:npm/@semantic-release/github@12.0.6",
+   "bom-ref": "npm/@semantic-release/github@12.0.6"
+  },
+  {
+   "type": "library",
+   "name": "@semantic-release/npm",
+   "version": "13.1.4",
+   "purl": "pkg:npm/@semantic-release/npm@13.1.4",
+   "bom-ref": "npm/@semantic-release/npm@13.1.4"
+  },
+  {
+   "type": "library",
+   "name": "@semantic-release/release-notes-generator",
+   "version": "14.1.0",
+   "purl": "pkg:npm/@semantic-release/release-notes-generator@14.1.0",
+   "bom-ref": "npm/@semantic-release/release-notes-generator@14.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/invariant",
+   "version": "^2.2.37",
+   "purl": "pkg:npm/@types/invariant@^2.2.37",
+   "bom-ref": "npm/@types/invariant@^2.2.37"
+  },
+  {
+   "type": "library",
+   "name": "@types/selenium-webdriver",
+   "version": "4.0.9",
+   "purl": "pkg:npm/@types/selenium-webdriver@4.0.9",
+   "bom-ref": "npm/@types/selenium-webdriver@4.0.9"
+  },
+  {
+   "type": "library",
+   "name": "@typescript/native-preview",
+   "version": "^7.0.0-dev.20260620.1",
+   "purl": "pkg:npm/@typescript/native-preview@^7.0.0-dev.20260620.1",
+   "bom-ref": "npm/@typescript/native-preview@^7.0.0-dev.20260620.1"
+  },
+  {
+   "type": "library",
+   "name": "appium",
+   "version": "1.17.0",
+   "purl": "pkg:npm/appium@1.17.0",
+   "bom-ref": "npm/appium@1.17.0"
+  },
+  {
+   "type": "library",
+   "name": "oxfmt",
+   "version": "0.35.0",
+   "purl": "pkg:npm/oxfmt@0.35.0",
+   "bom-ref": "npm/oxfmt@0.35.0"
+  },
+  {
+   "type": "library",
+   "name": "oxlint",
+   "version": "1.50.0",
+   "purl": "pkg:npm/oxlint@1.50.0",
+   "bom-ref": "npm/oxlint@1.50.0"
+  },
+  {
+   "type": "library",
+   "name": "oxlint-tsgolint",
+   "version": "0.15.0",
+   "purl": "pkg:npm/oxlint-tsgolint@0.15.0",
+   "bom-ref": "npm/oxlint-tsgolint@0.15.0"
+  },
+  {
+   "type": "library",
+   "name": "react-native-macos",
+   "version": "0.73.17",
+   "purl": "pkg:npm/react-native-macos@0.73.17",
+   "bom-ref": "npm/react-native-macos@0.73.17"
+  },
+  {
+   "type": "library",
+   "name": "react-native-test-app",
+   "version": "3.7.2",
+   "purl": "pkg:npm/react-native-test-app@3.7.2",
+   "bom-ref": "npm/react-native-test-app@3.7.2"
+  },
+  {
+   "type": "library",
+   "name": "react-native-windows",
+   "version": "0.73.8",
+   "purl": "pkg:npm/react-native-windows@0.73.8",
+   "bom-ref": "npm/react-native-windows@0.73.8"
+  },
+  {
+   "type": "library",
+   "name": "selenium-appium",
+   "version": "1.0.2",
+   "purl": "pkg:npm/selenium-appium@1.0.2",
+   "bom-ref": "npm/selenium-appium@1.0.2"
+  },
+  {
+   "type": "library",
+   "name": "selenium-webdriver",
+   "version": "4.0.0-alpha.7",
+   "purl": "pkg:npm/selenium-webdriver@4.0.0-alpha.7",
+   "bom-ref": "npm/selenium-webdriver@4.0.0-alpha.7"
+  },
+  {
+   "type": "library",
+   "name": "semantic-release",
+   "version": "25.0.3",
+   "purl": "pkg:npm/semantic-release@25.0.3",
+   "bom-ref": "npm/semantic-release@25.0.3"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "5.1.3",
+   "purl": "pkg:npm/typescript@5.1.3",
+   "bom-ref": "npm/typescript@5.1.3"
+  },
+  {
+   "type": "library",
+   "name": "winappdriver",
+   "version": "^0.0.7",
+   "purl": "pkg:npm/winappdriver@^0.0.7",
+   "bom-ref": "npm/winappdriver@^0.0.7"
+  },
+  {
+   "type": "library",
+   "name": "html2canvas",
+   "version": "^1.4.1",
+   "purl": "pkg:npm/html2canvas@^1.4.1",
+   "bom-ref": "npm/html2canvas@^1.4.1"
+  },
+  {
+   "type": "library",
+   "name": "@babel/preset-env",
+   "version": "^7.28.3",
+   "purl": "pkg:npm/@babel/preset-env@^7.28.3",
+   "bom-ref": "npm/@babel/preset-env@^7.28.3"
+  },
+  {
+   "type": "library",
+   "name": "@babel/preset-react",
+   "version": "^7.27.1",
+   "purl": "pkg:npm/@babel/preset-react@^7.27.1",
+   "bom-ref": "npm/@babel/preset-react@^7.27.1"
+  },
+  {
+   "type": "library",
+   "name": "@eslint/js",
+   "version": "^10",
+   "purl": "pkg:npm/@eslint/js@^10",
+   "bom-ref": "npm/@eslint/js@^10"
+  },
+  {
+   "type": "library",
+   "name": "@types/react-test-renderer",
+   "version": "^19.1.0",
+   "purl": "pkg:npm/@types/react-test-renderer@^19.1.0",
+   "bom-ref": "npm/@types/react-test-renderer@^19.1.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^9.17.0",
+   "purl": "pkg:npm/eslint@^9.17.0",
+   "bom-ref": "npm/eslint@^9.17.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-config-prettier",
+   "version": "^9.1.2",
+   "purl": "pkg:npm/eslint-config-prettier@^9.1.2",
+   "bom-ref": "npm/eslint-config-prettier@^9.1.2"
+  },
+  {
+   "type": "library",
+   "name": "html-webpack-plugin",
+   "version": "^5.6.0",
+   "purl": "pkg:npm/html-webpack-plugin@^5.6.0",
+   "bom-ref": "npm/html-webpack-plugin@^5.6.0"
+  },
+  {
+   "type": "library",
+   "name": "jest-environment-jsdom",
+   "version": "^30.3.0",
+   "purl": "pkg:npm/jest-environment-jsdom@^30.3.0",
+   "bom-ref": "npm/jest-environment-jsdom@^30.3.0"
+  },
+  {
+   "type": "library",
+   "name": "prettier",
+   "version": "^3.4.2",
+   "purl": "pkg:npm/prettier@^3.4.2",
+   "bom-ref": "npm/prettier@^3.4.2"
+  },
+  {
+   "type": "library",
+   "name": "ts-jest",
+   "version": "^29.4.6",
+   "purl": "pkg:npm/ts-jest@^29.4.6",
+   "bom-ref": "npm/ts-jest@^29.4.6"
+  },
+  {
+   "type": "library",
+   "name": "merge-options",
+   "version": "^3.0.4",
+   "purl": "pkg:npm/merge-options@^3.0.4",
+   "bom-ref": "npm/merge-options@^3.0.4"
+  },
+  {
+   "type": "library",
+   "name": "@types/lodash",
+   "version": "^4.14.184",
+   "purl": "pkg:npm/@types/lodash@^4.14.184",
+   "bom-ref": "npm/@types/lodash@^4.14.184"
+  },
+  {
+   "type": "library",
+   "name": "@types/mocha",
+   "version": "^10.0.1",
+   "purl": "pkg:npm/@types/mocha@^10.0.1",
+   "bom-ref": "npm/@types/mocha@^10.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@wdio/appium-service",
+   "version": "^8.24.0",
+   "purl": "pkg:npm/@wdio/appium-service@^8.24.0",
+   "bom-ref": "npm/@wdio/appium-service@^8.24.0"
+  },
+  {
+   "type": "library",
+   "name": "@wdio/cli",
+   "version": "^8.24.0",
+   "purl": "pkg:npm/@wdio/cli@^8.24.0",
+   "bom-ref": "npm/@wdio/cli@^8.24.0"
+  },
+  {
+   "type": "library",
+   "name": "@wdio/local-runner",
+   "version": "^8.24.0",
+   "purl": "pkg:npm/@wdio/local-runner@^8.24.0",
+   "bom-ref": "npm/@wdio/local-runner@^8.24.0"
+  },
+  {
+   "type": "library",
+   "name": "@wdio/mocha-framework",
+   "version": "^8.11.0",
+   "purl": "pkg:npm/@wdio/mocha-framework@^8.11.0",
+   "bom-ref": "npm/@wdio/mocha-framework@^8.11.0"
+  },
+  {
+   "type": "library",
+   "name": "@wdio/spec-reporter",
+   "version": "^8.24.0",
+   "purl": "pkg:npm/@wdio/spec-reporter@^8.24.0",
+   "bom-ref": "npm/@wdio/spec-reporter@^8.24.0"
+  },
+  {
+   "type": "library",
+   "name": "appium-uiautomator2-driver",
+   "version": "^2.34.1",
+   "purl": "pkg:npm/appium-uiautomator2-driver@^2.34.1",
+   "bom-ref": "npm/appium-uiautomator2-driver@^2.34.1"
+  },
+  {
+   "type": "library",
+   "name": "appium-xcuitest-driver",
+   "version": "^5.9.1",
+   "purl": "pkg:npm/appium-xcuitest-driver@^5.9.1",
+   "bom-ref": "npm/appium-xcuitest-driver@^5.9.1"
+  },
+  {
+   "type": "library",
+   "name": "concurrently",
+   "version": "^8.2.2",
+   "purl": "pkg:npm/concurrently@^8.2.2",
+   "bom-ref": "npm/concurrently@^8.2.2"
+  },
+  {
+   "type": "library",
+   "name": "lodash",
+   "version": "^4.17.21",
+   "purl": "pkg:npm/lodash@^4.17.21",
+   "bom-ref": "npm/lodash@^4.17.21"
+  },
+  {
+   "type": "library",
+   "name": "react-native-builder-bob",
+   "version": "^0.33.3",
+   "purl": "pkg:npm/react-native-builder-bob@^0.33.3",
+   "bom-ref": "npm/react-native-builder-bob@^0.33.3"
+  },
+  {
+   "type": "library",
+   "name": "webdriverio",
+   "version": "^8.24.0",
+   "purl": "pkg:npm/webdriverio@^8.24.0",
+   "bom-ref": "npm/webdriverio@^8.24.0"
+  },
+  {
+   "type": "library",
+   "name": "@react-navigation/elements",
+   "version": "^2.9.10",
+   "purl": "pkg:npm/@react-navigation/elements@^2.9.10",
+   "bom-ref": "npm/@react-navigation/elements@^2.9.10"
+  },
+  {
+   "type": "library",
+   "name": "@expo/dom-webview",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@expo/dom-webview@workspace:*",
+   "bom-ref": "npm/@expo/dom-webview@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-insights",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-insights@workspace:*",
+   "bom-ref": "npm/expo-insights@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "expo-network-addons",
+   "version": "workspace:*",
+   "purl": "pkg:npm/expo-network-addons@workspace:*",
+   "bom-ref": "npm/expo-network-addons@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@expo/spawn-async",
+   "version": "^1.8.0",
+   "purl": "pkg:npm/@expo/spawn-async@^1.8.0",
+   "bom-ref": "npm/@expo/spawn-async@^1.8.0"
+  },
+  {
+   "type": "library",
+   "name": "babel-preset-expo",
+   "version": "workspace:*",
+   "purl": "pkg:npm/babel-preset-expo@workspace:*",
+   "bom-ref": "npm/babel-preset-expo@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "jimp-compact",
+   "version": "^0.16.1-2",
+   "purl": "pkg:npm/jimp-compact@^0.16.1-2",
+   "bom-ref": "npm/jimp-compact@^0.16.1-2"
+  },
+  {
+   "type": "library",
+   "name": "pixelmatch",
+   "version": "^7.1.0",
+   "purl": "pkg:npm/pixelmatch@^7.1.0",
+   "bom-ref": "npm/pixelmatch@^7.1.0"
+  },
+  {
+   "type": "library",
+   "name": "pngjs",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/pngjs@^7.0.0",
+   "bom-ref": "npm/pngjs@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "zod",
+   "version": "^4.1.12",
+   "purl": "pkg:npm/zod@^4.1.12",
+   "bom-ref": "npm/zod@^4.1.12"
+  },
+  {
+   "type": "library",
+   "name": "@types/bun",
+   "version": "latest",
+   "purl": "pkg:npm/@types/bun@latest",
+   "bom-ref": "npm/@types/bun@latest"
+  },
+  {
+   "type": "library",
+   "name": "@types/pngjs",
+   "version": "^6.0.5",
+   "purl": "pkg:npm/@types/pngjs@^6.0.5",
+   "bom-ref": "npm/@types/pngjs@^6.0.5"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
